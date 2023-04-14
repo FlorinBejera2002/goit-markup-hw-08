@@ -1,0 +1,125 @@
+.header__container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ececec;
+
+    .header {
+        display: flex;
+        gap: 93px;
+        &__logo-1 {
+            flex-grow: 1;
+            text-decoration: none;
+            font-family: "Raleway";
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+            color: black;
+            display: flex;
+            align-items: center;
+            margin: 24px 0px 25px 1px;
+        }
+
+        &__logo-2 {
+            text-decoration: none;
+            font-family: "Raleway";
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+            color: var(--brand-color);
+        }
+    }
+}
+.nav-container {
+    display: flex;
+}
+
+.navigation-list,
+.header__navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    gap: 50px;
+
+    &__link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--brand-color-dark);
+        transition: color var(--transition-duration) var(--timing-function);
+    }
+
+    &__item {
+        position: relative;
+    }
+
+    .active::after {
+        content: "";
+        border: 2px solid var(--brand-color);
+        width: 100%;
+        position: absolute;
+        bottom: -32px;
+        border-radius: 2px;
+        left: 0;
+    }
+
+    .active {
+        color: var(--brand-color);
+    }
+
+    &__link:focus::after {
+        visibility: visible;
+    }
+
+    &__link:hover,
+    &__link:focus {
+        color: var(--brand-color);
+    }
+}
+
+.right-navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 330px;
+    gap: 40px;
+
+    .phone--header {
+        display: flex;
+        width: max-content;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--brand-color-light);
+        transition-property: color, stroke;
+        transition-duration: 250ms;
+        transition-timing-function: linear;
+    }
+
+    &__item:hover,
+    &__item:focus {
+        color: var(--brand-color);
+        stroke: var(--brand-color);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .right-navigation {
+        flex-direction: column;
+        padding: 21px 0px 21px 0px;
+        gap: 10px;
+        align-items: flex-start;
+    }
+}

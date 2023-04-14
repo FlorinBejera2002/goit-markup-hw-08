@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/main.min.css" />
+        <title>Web Studio</title>
+    </head>
+    <body>
+        <!-- HEADER SECTION -->
+        <div class="header__container">
+            <header class="header">
+                <a class="header__logo-1" href="#"
+                    ><span class="header__logo-2">Web</span>Studio</a
+                >
+                <!-- NAVIGATION SECTION -->
+                <nav class="header__navigation">
+                    <ul class="navigation-list unstyled-list">
+                        <li class="navigation-list__item">
+                            <a class="navigation-list__link" href="index.html"
+                                >Studio</a
+                            >
+                        </li>
+                        <li class="navigation-list__item">
+                            <a class="navigation-list__link active" href="#"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li class="navigation-list__item">
+                            <a
+                                class="navigation-list__link"
+                                href="contacts.html"
+                                >Contacts</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <!-- CONTACTS SECTION -->
+                <ul class="right-navigation unstyled-list">
+                    <li class="mail--header">
+                        <a
+                            class="right-navigation__item"
+                            href="mailto:info@devstudio.com"
+                        >
+                            <svg class="icon-hover" width="16" height="12">
+                                <use
+                                    href="images/symbols.svg#icon-envelope"
+                                ></use>
+                            </svg>
+                            info@devstudio.com</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="phone--header right-navigation__item"
+                            href="tel:+12127724150"
+                        >
+                            <svg class="icon-hover" width="16" height="12">
+                                <use
+                                    href="images/symbols.svg#icon-smartphone"
+                                ></use>
+                            </svg>
+                            +1 212-772-4150</a
+                        >
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <!-- MAIN -->
+        <div class="container">
+            <main>
+                <!-- FILTER SECTION -->
+                <section>
+                    <ul class="filter unstyled-list">
+                        <li>
+                            <button class="filter__p-button" type="button">
+                                All
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filter__p-button" type="button">
+                                Web-sites
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filter__p-button" type="button">
+                                Apps
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filter__p-button" type="button">
+                                Design
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filter__p-button" type="button">
+                                Marketing
+                            </button>
+                        </li>
+                    </ul>
+                </section>
+                <!-- PORTFOLIO ELEMENTS SECTION -->
+                <section class="p-container">
+                    <ul class="card-set unstyled-list">
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p class="overlay__text">
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p1.jpg"
+                                        alt="Laptop"
+                                    />
+                                </div>
+                                <div>
+                                    <h3 class="card-set__name">Technoduck</h3>
+                                    <p class="card-set__type">Web-site</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p></p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p2.jpg"
+                                        alt="Dunking"
+                                    />
+                                </div>
+                                <h3 class="card-set__name">
+                                    Poster New Orlean vs Golden Star
+                                </h3>
+                                <p class="card-set__type">Design</p>
+                            </div>
+                        </li>
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p></p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p3.jpg"
+                                        alt="The Seafood Restaurant"
+                                    />
+                                </div>
+                                <h3 class="card-set__name">
+                                    Seafood Restaurant
+                                </h3>
+                                <p class="card-set__type">Apps</p>
+                            </div>
+                        </li>
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p></p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p4.jpg"
+                                        alt="Headset"
+                                    />
+                                </div>
+                                <h3 class="card-set__name">Project Prime</h3>
+                                <p class="card-set__type">Marketing</p>
+                            </div>
+                        </li>
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p></p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p5.jpg"
+                                        alt="Two Boxes"
+                                    />
+                                </div>
+                                <h3 class="card-set__name">Project Boxes</h3>
+                                <p class="card-set__type">Apps</p>
+                            </div>
+                        </li>
+
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p></p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p6.jpg"
+                                        alt="Apple Monitor"
+                                    />
+                                </div>
+                                <h3 class="card-set__name">
+                                    Inspiration has no Borders
+                                </h3>
+                                <p class="card-set__type">Web-site</p>
+                            </div>
+                        </li>
+
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p></p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p7.jpg"
+                                        alt="Open book"
+                                    />
+                                </div>
+                                <h3 class="card-set__name">Limited Edition</h3>
+                                <p class="card-set__type">Design</p>
+                            </div>
+                        </li>
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p></p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p8.jpg"
+                                        alt="Label Tag"
+                                    />
+                                </div>
+                                <h3 class="card-set__name">Project LAB</h3>
+                                <p class="card-set__type">Marketing</p>
+                            </div>
+                        </li>
+                        <li class="card-set__item">
+                            <div class="card-container">
+                                <div class="card-set__top">
+                                    <div class="overlay">
+                                        <p></p>
+                                    </div>
+                                    <img
+                                        width="370"
+                                        height="294"
+                                        src="./images/p9.jpg"
+                                        alt="Working on Laptop"
+                                    />
+                                </div>
+                                <h3 class="card-set__name">Growing Business</h3>
+                                <p class="card-set__type">Apps</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+        <!-- FOOTER  -->
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-section__titles">
+                    <a
+                        class="footer-section__logo-1 footer-section--styles"
+                        href="#"
+                        ><span class="header__logo-2">Web</span>Studio</a
+                    >
+                    <h3 class="footer-section__svg-title">FIND US ON</h3>
+                    <h3 class="footer-section__news">
+                        SUBSCRIBE TO THE NEWSLETTER
+                    </h3>
+                </div>
+                <address class="footer__container">
+                    <ul class="footer__list unstyled-list">
+                        <li class="footer__list-item">
+                            <a class="address footer-section--styles" href=""
+                                >695 Park Ave, NY 10065, USA</a
+                            >
+                        </li>
+                        <li class="footer__list-item">
+                            <a
+                                class="email-footer footer-section--styles"
+                                href="mailto:info@devstudio.com"
+                                >info@devstudio.com</a
+                            >
+                        </li>
+                        <li class="footer__list-item footer-phone">
+                            <a
+                                class="phone-nr-footer footer-section--styles"
+                                href="tel:+12127724150"
+                                >+1 212-772-4150</a
+                            >
+                        </li>
+                    </ul>
+                    <div>
+                        <ul class="footer__icon-container unstyled-list">
+                            <li
+                                class="footer__icon-list footer__icon-background"
+                            >
+                                <a href="#">
+                                    <svg
+                                        class="footer__svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <use
+                                            href="images/symbols.svg#icon-instagram-2"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li
+                                class="footer__icon-list footer__icon-background"
+                            >
+                                <a href="#">
+                                    <svg
+                                        class="footer__svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <use
+                                            href="images/symbols.svg#icon-twitter-1"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li
+                                class="footer__icon-list footer__icon-background"
+                            >
+                                <a href="#">
+                                    <svg
+                                        class="footer__svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <use
+                                            href="images/symbols.svg#icon-facebook-1"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li
+                                class="footer__icon-list footer__icon-background"
+                            >
+                                <a href="#">
+                                    <svg
+                                        class="footer__svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <use
+                                            href="images/symbols.svg#icon-linkedin-1"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer__news-container unstyled-list">
+                            <li>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="E-mail"
+                                    class="footer__e-mail-input"
+                                />
+                            </li>
+                            <li>
+                                <button
+                                    class="footer__subscribe-button"
+                                    type="submit"
+                                >
+                                    <h3>Subscribe</h3>
+                                    <svg
+                                        class="footer__send-icon"
+                                        width="24"
+                                        height="24"
+                                    >
+                                        <use
+                                            href="images/symbols.svg#icon-send"
+                                        ></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </address>
+            </div>
+            <script src="./js/mobile-menu.js"></script>
+        </footer>
+    </body>
+</html>
